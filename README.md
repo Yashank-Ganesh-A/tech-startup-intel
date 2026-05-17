@@ -45,42 +45,6 @@ Python 3.13
 MongoDB Atlas - Cloud Database (AWS Frankfurt)
 ```
 
----
-
-## Project Structure
-
-```
-tech-startup-intel/
-│
-├── collectors/
-│   ├── __init__.py
-│   ├── github_trending.py    <- Scrapes GitHub trending repos
-│   ├── github_toprepos.py    <- Fetches top repos via GitHub API
-│   ├── hackernews.py         <- Fetches HN stories via Algolia API
-│   └── pypi_packages.py      <- Scrapes PyPI package data
-│
-├── storage/
-│   ├── __init__.py
-│   └── db.py                 <- MongoDB connection handler
-│
-├── insights/
-│   ├── __init__.py
-│   ├── process.py            <- Data cleaning & enrichment
-│   └── dashboard.py          <- Business intelligence reports
-│
-├── exports/
-│   ├── 1.png                 <- Collection phase output
-│   ├── 2.png                 <- Processing phase output
-│   ├── 3.png                 <- Dashboard reports part 1
-│   └── 4.png                 <- Dashboard reports part 2
-│
-├── .env                      <- MongoDB credentials (not in repo)
-├── .gitignore
-├── requirements.txt
-├── prompts.txt               <- AI prompts used
-├── startup.py                <- Main pipeline runner
-└── README.md
-```
 
 ---
 
@@ -171,5 +135,5 @@ REPORT 4 >> TOP HACKERNEWS STORIES
 ## Author
 
 **Yashank Ganesh Akula**
-SRH University Hamburg — Data Management Project
+SRH University Hamburg - Data Management Project </br>
 Summer Semester 2026
